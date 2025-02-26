@@ -15,7 +15,8 @@ btns.forEach(function (btn) {
       count = 0;
     } else if (e.currentTarget.classList.contains('increase')) {
       count++;
-    }
+    } else if (e.currentTarget.classList.contains('random'))
+      count = Math.floor(Math.random() * 100);
     // Actualiza el contenido del span con el nuevo valor
     value.textContent = count;
   });

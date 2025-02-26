@@ -1,0 +1,73 @@
+/* Estilos globales para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Contenedor central */
+  .container {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Estilos para el campo de texto */
+  input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilos para la lista de tareas */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para cada tarea */
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilo para tareas completadas */
+  li.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  /* Estilos para el botón de eliminar dentro de cada tarea */
+  li button {
+    background-color: #dc3545;
+    margin-left: 10px;
+  }
+  
+  li button:hover {
+    background-color: #c82333;
+  }
+  
